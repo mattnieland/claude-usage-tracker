@@ -119,8 +119,6 @@ Temporary Items
 # Session Keys (sensitive)
 .claude-session-key
 
-.claude
-
 # Backup files
 *.backup.*
 
@@ -153,3 +151,12 @@ release/
 /STATUSLINE_PROFILE_FIX.md
 /STORAGE_ARCHITECTURE.md
 /STORAGE_QUICK_REFERENCE.md
+
+# Node / Bun
+node_modules/
+src-ui/node_modules/
+bun.lockb
+
+# Rust / Tauri
+src-tauri/target/
+src-ui/dist/
